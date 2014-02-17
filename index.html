@@ -23,6 +23,14 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "http://connect.facebook.net/ja_JP/all.js#xfbml=1";
+  		fjs.parentNode.insertBefore(js, fjs);
+  	}(document, 'script', 'facebook-jssdk'));</script>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -51,11 +59,12 @@
     			<p></p>
     			<div class="jumbotron">
     				<h1>Code for Me ?</h1>
+    				<div class="fb-like" data-href="https://www.facebook.com/junichi.sagara" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     				<a class="btn btn-primary btn-lg pull-right" role="button" href="#" data-toggle="tab">More Info ...</a>
     			</div>
     		</div>
     		<div id="1" class="tab-pane">
-    			<p>J.S.</p>
+    			<p>SAGARA Jun-Ichi</p>
     		</div>
     		<div id="2" class="tab-pane">
     			<p>2</p>
